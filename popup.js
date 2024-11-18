@@ -1,6 +1,4 @@
-document.getElementById('groupTabs').addEventListener('click', async () => {
-    run()
-});
+
 async function run() {
     const tabs = await chrome.tabs.query({ currentWindow: true });
     const domainMap = {};
