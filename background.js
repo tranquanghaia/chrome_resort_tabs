@@ -1,3 +1,3 @@
 chrome.runtime.onInstalled.addListener(() => {
-    console.log("Tab Grouper installed.");
+    console.log("Tab Sorter installed.");
   });

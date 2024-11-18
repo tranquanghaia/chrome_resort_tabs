@@ -25,11 +25,9 @@ async function run() {
     console.log(domainMap);
     // for (const domain in domainMap) {
     //     const tabIds = domainMap[domain];
-    //     // Tạo một nhóm cho từng domain
     //     await chrome.tabs.group({ tabIds });
     // }
     let sortedTabIds =[];
-     // Sắp xếp các tab theo thứ tự domain
      for(let domain in domainMap){
         let l = domainMap[domain];
         for(let index in l){
@@ -37,8 +35,6 @@ async function run() {
         }
      }
     //  const sortedTabIds = Object.values(domainMap).flat();
-    
-     // Đổi vị trí các tab
      sortedTabIds.forEach((tabId, index) => {
          chrome.tabs.move(tabId, { index });
      });
