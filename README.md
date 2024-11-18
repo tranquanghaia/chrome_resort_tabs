@@ -1,3 +1,4 @@
 # chrome_resort_tabs
+Guide:
+![alt guide](https://raw.githubusercontent.com/tranquanghaia/chrome_resort_tabs/refs/heads/main/popup.html)
 
-Buy me a coffee: https://buymeacoffee.com/dngteam
