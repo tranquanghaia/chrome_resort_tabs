@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Tab Sorter",
+    "name": "Tabs",
     "version": "1.0",
-    "description": "Sort all tabs with the same domain together.",
+    "description": "",
     "permissions": ["tabs", "activeTab"],
     "background": {
       "service_worker": "background.js"
